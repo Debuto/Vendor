@@ -1,6 +1,3 @@
-// using System;
-// using Vendor.Models;
-
 using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.DependencyInjection;
 
@@ -17,6 +14,8 @@ namespace FriendLetter
       WebApplication app = builder.Build();
 
       app.UseRouting();
+      app.UseStaticFiles():
+      app.UseRouting():
 
       app.MapControllerRoute(
         name: "default",
