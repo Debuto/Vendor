@@ -15,7 +15,7 @@ namespace FriendLetter
 
       app.UseRouting();
       app.UseStaticFiles():
-      app.UseRouting():
+      app.UseHttpsRedirection();
 
       app.MapControllerRoute(
         name: "default",
