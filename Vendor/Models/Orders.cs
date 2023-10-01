@@ -1,6 +1,14 @@
-public class Order
+using System.Collections.Generic;
+
+namespace Vendor.Models
 {
-    public int Id { get; set; }
-    public string Description { get; set; }
-    public int VendorId { get; set; }
+  public class Order
+  {
+    public string OrderTitle {get; set;}
+    public string OrderPrice {get; set;}
+    public string OrderDescription{get; set;}
+    public string OrderDate {get; set;}
+    public int Id {get; }
+    private static List<Order> _instances = new List<Order> { };
+  }
 }
