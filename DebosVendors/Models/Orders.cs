@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace Vendor.Models
+namespace DebosVendors.Models
 {
   public class Order
   {
@@ -11,7 +11,7 @@ namespace Vendor.Models
     public int Id {get; }
     private static List<Order> _instances = new List<Order> { };
 
-    public Order(string orderPrice, string orderDescription, string orderDate)
+    public Order(string orderPrice, string orderDescription, string orderDate) 
     {
       OrderPrice = orderPrice;
       OrderDescription = orderDescription;

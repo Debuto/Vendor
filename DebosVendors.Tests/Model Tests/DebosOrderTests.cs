@@ -1,9 +1,9 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Vendors.Models;
+using DebosVendors.Models;
 using System;
 using System.Collections.Generic;
 
-namespace Vendors.Tests
+namespace DebosVendors.Tests
 {
     [TestClass]
     public class OrderTests : IDisposable
