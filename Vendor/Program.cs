@@ -14,7 +14,7 @@ namespace FriendLetter
       WebApplication app = builder.Build();
 
       app.UseRouting();
-      app.UseStaticFiles():
+      app.UseStaticFiles();
       app.UseHttpsRedirection();
 
       app.MapControllerRoute(
