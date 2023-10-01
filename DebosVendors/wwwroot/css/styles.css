@@ -1,0 +1,12 @@
+body {
+  background-color: peachpuff;
+  text-align: center;
+}
+h1 {
+  background-color: white;
+  text-emphasis-color: peachpuff;
+  outline: auto;
+  padding: 20px 40px;
+  margin: 50px 500px 50px 500px;
+}
+
